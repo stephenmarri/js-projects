@@ -1,0 +1,59 @@
+:root {
+  --bg-primary: rgba(236, 243, 237, 0.932);
+  --bg-seconday: #669a5a;
+  --bg-third: #a5b5ad;
+
+  --color-dark: rgb(83, 79, 79);
+  --color-text: rgb(85, 76, 76);
+  --color-light: white;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: 0px solid red; /* for debugging */
+}
+
+html {
+  font-size: 18px;
+  width: 100%;
+  user-select: none;
+}
+
+body {
+  width: 100%;
+  min-height: 360px;
+  color: var(--color-dark);
+  background-color: var(--bg-primary);
+  
+  font-family: "Nunito";
+  
+  #root {
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+    #main_container {
+      background-color: var(--bg-primary);
+      width: 100%;
+      max-width: 1440px;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,12 @@
+#insurance_container{
+    width: 100%;
+    min-height: 25rem;
+
+    p{
+        padding: 0 3rem;
+
+        ul{
+            padding-left: 3rem;
+        }
+    }
+}

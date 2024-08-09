@@ -1,0 +1,67 @@
+.one_doctor {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 3rem;
+  justify-items: start;
+  margin-bottom: 5rem;
+  justify-content: center;
+
+  img {
+    height:25rem;
+    width: 25rem;
+    
+
+    object-fit: cover;
+  }
+  
+  div {
+
+    .title {
+      font-size: 1.75rem;
+      margin-bottom: 2rem;
+      font-weight: 600;
+    }
+
+    .content {
+      padding-right: 5rem;
+      font-size: 1.25rem;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .one_doctor {
+    grid-template-columns: 1fr 1fr;
+
+    img{
+        height: 50vw;
+        width: 50vw;
+    }
+
+    div{
+
+        .title{
+            font-size: 2rem;
+        }
+
+        .content{
+          padding-right: 0;
+          text-align: justify;
+        }
+    }
+
+  }
+}
+
+@media (max-width: 600px) {
+    .one_doctor {
+      grid-template-columns: 1fr;
+
+      img{
+        width: 90vw;
+        height: 90vw;
+      }
+  
+    }
+  }

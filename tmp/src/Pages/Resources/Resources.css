@@ -1,0 +1,23 @@
+#resources_container{
+   #forms_container{
+    width: 100%;
+    background-color: rgb(226, 230, 230);
+    padding: 1rem 0rem;
+    justify-content: space-around;
+    align-items: start;
+    border-radius: 1rem;
+    
+    div{
+        width: 40%;
+    }
+   }
+
+   #video_resources{
+    iframe{
+        width: 40vw; 
+        height: 22.25vw;
+       
+    }
+   }
+
+}
