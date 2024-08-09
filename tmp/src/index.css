@@ -27,7 +27,7 @@ body {
   color: var(--color-dark);
   background-color: var(--bg-primary);
   
-  font-family: "Nunito";
+  font-family:  "Nunito Sans", sans-serif;
   
   #root {
     
