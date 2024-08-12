@@ -1,12 +1,43 @@
 #insurance_container{
-    width: 100%;
-    min-height: 25rem;
+    
 
-    p{
-        padding: 0 3rem;
+    #insurance_lineOne{
+        width: 100%;
+gap: 1rem;
+    
+        p{
+            flex: 1;
+            padding: 1rem 2rem;
+            background-color: rgb(235, 243, 234);    
+            min-height: 25rem;
+
+            border-radius: 5px;
+
+            ul{
+                padding-left: 3rem;
+                list-style-type: circle;
+            }
+        }
+
+        #insurance_image{
+
+            width: 50%;
+            min-height: 25rem;
+            border-radius: 5px;
+            background-image: url('images/insurance.jpg');
+            background-size: cover;
+        }
+    }
+
+    #other_insurance{
+        background-color: rgb(235, 243, 234);
+        padding: 1rem 2rem;
+        border-radius: 5px;
 
         ul{
             padding-left: 3rem;
+            list-style-type: circle;
         }
     }
+
 }

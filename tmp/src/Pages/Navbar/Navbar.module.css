@@ -1,11 +1,15 @@
 .container {
   width: 100%;
+  
+  /* height: 100%; */
   color: var(--bg-seconday);
-  min-height: 5rem;
+  
   padding-left: 5vw;
   padding-right: 5vw;
-  margin-bottom: 2rem;
-
+  margin-bottom: 1rem;
+  background-color: whitesmoke;
+  padding-bottom: 2rem;
+  
   
   .lineOne {
     display: flex;
@@ -13,41 +17,67 @@
     align-items: center;
     background-color: none;
 
-    h2 {
-    
+    .title_and_logo{
+
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
       flex: 1;
-      min-width: 50%;
-      padding: 1rem 0rem;
-      font-size: 2rem;      
-      /* text-transform: uppercase; */
-      white-space: wrap;
-      font-family: "Nunito Sans";
-      letter-spacing: 2px;
-      font-weight: 700;
-      word-spacing: 6px;
-      text-transform: uppercase;
+
+      .page_logo{
+        width: 5rem;
+        height: 5rem;        
+        margin-right: 0.5rem;
+
+        background-image: url('images/logo_4.svg');
+        background-repeat: no-repeat;
+        background-position: 50% 10%;
+        background-size: cover;
+      }
+
+      h2 {
+    
+        flex: 1;
+        min-width: 30%;
+        padding: 1rem 0rem;
+        font-size: 2rem;      
+        /* text-transform: uppercase; */
+        white-space: wrap;
+        font-family: "Nunito Sans";
+        letter-spacing: 2px;
+        font-weight: 700;
+        word-spacing: 6px;
+        text-transform: uppercase;
+      }
+  
+      
     }
+
+   
     
     
 
     a{
-        color: white;
-        background-color: var(--bg-seconday);
-        padding: 1rem 2rem;
-        font-size: 1.1rem;
-        text-decoration: none;
-        text-transform: uppercase;
-        font-weight: 700;
-        letter-spacing: 1px;
-        word-spacing: 4px;
-        font-family: 'Nunito Sans';
-        margin-right: 1rem;
-        border-radius: 10px;
-        border: 3px solid var(--bg-seconday);
+      background-color: var(--bg-seconday);
+      padding: 1rem 2rem;
+      font-size: 1.1rem;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 1px;
+      word-spacing: 4px;
+      font-family: 'Nunito Sans';
+      margin-right: 1rem;
+      border-radius: 10px;
+      border: 3px solid var(--bg-seconday);
+      color: white;
     }
 
+    
+
     .call_us{
-      background-color: initial;
+      background-color: white;
       border: 3px solid var(--bg-seconday);
       color: var(--bg-seconday);
       font-weight: 800;
@@ -59,25 +89,27 @@
     flex-flow: row nowrap;
     width: 100%;
     justify-content: center;
-    background-color: #d7e9e0;
+    background-color: #ecf1ef;
+    background-color: white;
+    border-radius: 5px;
 
     nav {
       
       height: 3rem;
+      width: 100%;
 
       display: flex;
       flex-flow: row nowrap;
-      justify-content: space-between;
+      justify-content: space-around;
       align-items: center;
-      margin-right: 3rem;
-      gap: 5vw;
+      
 
       a {
         text-decoration: none;
         color: darkgreen;
         font-family: "Poppins";
         font-weight: 500;
-        font-size: 1.25rem;
+        font-size: 1.1rem;
         text-transform: uppercase;      
         
         &:hover{

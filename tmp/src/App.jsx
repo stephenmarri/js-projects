@@ -7,9 +7,9 @@ function App() {
   return (
     <>
       <div id="main_container">
-      <Navbar />
+        <Navbar />
         <Outlet />
-      <Copyright />
+        <Copyright />
       </div>
     </>
   )

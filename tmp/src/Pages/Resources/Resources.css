@@ -1,23 +1,52 @@
 #resources_container{
+
+    width: 100%;
+
    #forms_container{
     width: 100%;
-    background-color: rgb(226, 230, 230);
-    padding: 1rem 0rem;
+    background-color: rgb(242, 247, 247);
+    background-color: rgb(235, 243, 234);
+
+    padding: 1rem 2rem;
     justify-content: space-around;
     align-items: start;
-    border-radius: 1rem;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     
     div{
-        width: 40%;
+        
+
+        ul{
+        padding-left: 2rem;
+        }
     }
    }
 
    #video_resources{
-    iframe{
-        width: 40vw; 
-        height: 22.25vw;
+
+       width: 100%;
        
+
+       div{
+        justify-content: space-around !important;
+
+        .frame{
+           width: 45%; 
+           margin: auto;
+           box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+           
+           iframe{
+               min-height:17rem;
+            width: 100%;
+            height: 100%;
+        }}
     }
+
+    
    }
 
 }

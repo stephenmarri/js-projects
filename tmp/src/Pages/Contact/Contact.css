@@ -1,6 +1,6 @@
 #contact_container{
     width: 100%;
-    min-height: 25rem;
+    
     
 
     #lineOne{
@@ -21,22 +21,25 @@
         justify-content: space-around;
         align-items: start;
         /* background-color: #e7eaf6; */
+        background-color: rgb(235, 243, 234);
         padding: 2rem 0;        
-        border-radius: 1rem;
+        border-radius: 5px;
         gap: 3rem;
 
+        h2{
+            font-weight: 600;
+        }
+
         div:nth-child(1){
-            width: 50%;
+            
             padding-left: 3rem;
             font-size: 1.25rem;
             
         }
-        div:nth-child(2){
-            width: 50%;
-        }
+
 
         #address{
-            width: 100%;
+            width: 40% ; 
             b{
                 display: inline-block;
                 min-width: 7.5rem;
@@ -44,8 +47,8 @@
         }
 
         #hours{
-            
-
+            width: 40% ;
+            font-size: 1.25rem;
             div{
                 width: 100%;
                 

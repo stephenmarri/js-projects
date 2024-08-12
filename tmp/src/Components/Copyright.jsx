@@ -3,8 +3,13 @@ import style from '../smaller.module.css'
 
 const Copyright = () => {
     return (
-        <div className={style.copyright_container}>
-            Copyright © 2024 Terrebone Pediatrics Limited
+        <div className=
+        {`${style.copyright_container} fr`}
+        >
+            <span>Copyright © 2024 Terrebone Pediatrics Limited</span>
+            <span>
+                fb
+            </span>
         </div>
     )
 }

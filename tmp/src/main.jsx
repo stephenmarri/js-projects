@@ -2,7 +2,6 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
-import './common.css'
 
 import Services from './Pages/Services/Services.jsx'
 import Copyright from './Components/Copyright.jsx'
@@ -15,6 +14,7 @@ import Contact from './Pages/Contact/Contact.jsx'
 import Insurance from './Pages/Insurance/Insurance.jsx'
 import Resources from './Pages/Resources/Resources.jsx'
 
+import './common.css'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -23,6 +23,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Routes>
         <Route path="/" element={<App />}>
           <Route index element={<Homepage />} />
+          <Route path="/home" element={<Homepage />} />
           <Route path="/doctors" element={<Doctors />} />
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />

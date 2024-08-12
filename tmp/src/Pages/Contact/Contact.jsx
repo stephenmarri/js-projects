@@ -21,6 +21,7 @@ const Contact = () => {
                     <br />
                     <p><b>Call Us </b> <a href="tel:+11012023003">(101) 202-3003</a></p>
                     <p><b>Email Us </b> <a href="mailto:exmaple@domain.com">exmaple@domain.com</a></p>
+                    <p><b>Fax Us At </b> <a href="mailto:exmaple@domain.com">exmaple@domain.com</a></p>
                 </div>                
                 <div id='hours'>
                     <h2>Hours Of Operation</h2>
