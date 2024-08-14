@@ -1,14 +1,24 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import style from './Navbar.module.css'
 import { NavLink, Link } from 'react-router-dom'
 
 const Navbar = () => {
-    const [showMenu, setShowMenu] = useState(true);
+    
+  
 
-    const clickMobileMenu = () => {
-        setShowMenu(!showMenu)
-    }
+      const [showMenu, setShowMenu] = useState(true);
+      const isMobile = window.screen.width < 600
 
+      const clickMobileMenu = () => {
+        if(isMobile) setShowMenu(!showMenu)
+      }
+
+      useEffect(()=>{
+        if (isMobile){           
+            setShowMenu(false)
+        }
+      },[])
+  
     return (
         <div id='navbar' className={style.container}>
             <div className={style.lineOne}>
@@ -30,7 +40,7 @@ const Navbar = () => {
             {
                 showMenu ?
 
-                    <div  id="nav_links" className={style.lineTwo}>
+                    <div onClick={clickMobileMenu}  id="nav_links" className={style.lineTwo}>
                         <nav>
                             <NavLink
                                 className={({ isActive }) => isActive ? "active" : ""}
