@@ -56,11 +56,20 @@
     }
   }
 
-  #navbar div {
+  #navbar_appointment{
+    display: flex;
+    justify-content: end !important;
+    width: 100%;
+    
+  }
+
+  #navbar > div {
     display: flex !important;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    
 
     div{
       display: flex;
@@ -159,15 +168,20 @@
       display: block;
     }
 
-    #navbar_appointment{
-      width: 100%;
-      justify-content: end !important;
-      
-    }
+    /* #navbar_appointment{
+      width: 100%;    
+      display: flex;
+      justify-content: end !important; 
+    } */
   }
 }
 
 @media (max-width: 600px) {
+
+  #navbar_appointment{
+    justify-content: space-between !important; 
+  }
+
 }
 
 

@@ -7,9 +7,10 @@ const Navbar = () => {
   
 
       const [showMenu, setShowMenu] = useState(true);
-      const isMobile = window.screen.width < 600
+      const isMobile = window.screen.width < 1000
 
       const clickMobileMenu = () => {
+        console.log(window.screen.width)
         if(isMobile) setShowMenu(!showMenu)
       }
 
@@ -31,7 +32,7 @@ const Navbar = () => {
                     <div onClick={clickMobileMenu} id='mobile_menu' style={{ backgroundImage: `url('/icons/bars.svg')` }}>
                     </div>
                 </div>
-                <div id='navbar_appointment'>
+                <div id='navbar_appointment' className={style.navbar_appointment}>
                     <a className={style.call_us} href="tel:123 456 7890">Call Us</a>
                     <Link to="/contact">Request Appointment</Link>
                 </div>
