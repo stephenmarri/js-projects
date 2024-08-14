@@ -36,7 +36,7 @@ const Homepage = () => {
         </div>
         <div id="lineTwo">
           <br />
-          <h1>A Personalized Approach</h1>
+          <h2>A Personalized Approach</h2>
           <p>
             A Personalized Approach
             Our pediatrician partners with children and their families to develop personalized health treatment approaches that best aligns with your values and comfort. We believe in a compassionate approach and strive to create a welcoming and supportive environment. Our goal is to build a long-lasting relationship with your family and provide the best possible care. Families visiting our pediatric clinic appreciate our <br />

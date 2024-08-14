@@ -31,14 +31,25 @@ body {
   color: var(--color-dark);
   background-color: var(--bg-slicespace);
 
-  background-color: #e5e5f7;
-
-  background-color: #e5e5f7;
-
-  background-image:  linear-gradient(135deg, #cbf095 25%, transparent 25%), linear-gradient(225deg, #cbf095 25%, transparent 25%), linear-gradient(45deg, #cbf095 25%, transparent 25%), linear-gradient(315deg, #cbf095 25%, #e5e5f7 25%);
-  background-position:  10px 0, 10px 0, 0 0, 0 0;
+  /* pattern 1 */
+  /* background-color: #e5e5f7;
+  background-image: linear-gradient(135deg, #cbf095 25%, transparent 25%),
+    linear-gradient(225deg, #cbf095 25%, transparent 25%),
+    linear-gradient(45deg, #cbf095 25%, transparent 25%),
+    linear-gradient(315deg, #cbf095 25%, #e5e5f7 25%);
+  background-position: 10px 0, 10px 0, 0 0, 0 0;
   background-size: 10px 10px;
-  background-repeat: repeat;
+  background-repeat: repeat; */
+
+  /* patter 2 */
+  background-color: #eceee0;
+  opacity: 1;
+  background-image: repeating-radial-gradient(
+      circle at 0 0,
+      transparent 0,
+      #eceee0 10px
+    ),
+    repeating-linear-gradient(#dbeccc55, #dbeccc);
 
   font-family: "Nunito Sans", sans-serif;
 
