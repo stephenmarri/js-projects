@@ -6,7 +6,7 @@
       min-height: 25rem;
 
       background-color: red;
-      background-image: url("images/home2.jpg");
+      background-image: url("/images/home2.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: 10% 30%;
