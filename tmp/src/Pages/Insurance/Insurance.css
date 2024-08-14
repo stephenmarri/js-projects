@@ -24,7 +24,7 @@ gap: 1rem;
             width: 50%;
             min-height: 25rem;
             border-radius: 5px;
-            background-image: url('images/insurance.jpg');
+            background-image: url('/images/insurance.jpg');
             background-size: cover;
         }
     }

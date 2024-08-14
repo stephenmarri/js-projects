@@ -30,7 +30,7 @@ const Navbar = () => {
             {
                 showMenu ?
 
-                    <div onClick={clickMobileMenu}  id="nav_links" className={style.lineTwo}>
+                    <div  id="nav_links" className={style.lineTwo}>
                         <nav>
                             <NavLink
                                 className={({ isActive }) => isActive ? "active" : ""}
