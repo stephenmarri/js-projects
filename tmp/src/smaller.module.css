@@ -4,15 +4,34 @@
   left: 0; */
   width: 100%;
   text-align: center;
-  padding: 0.5rem 1.5rem;
-  height: 3rem;
+  padding: .5rem 1.5rem;
+  
   vertical-align: middle;
   font-size: 0.9rem;
   border-top: 1px solid #e5e7eb;
-  
+
   justify-content: space-between !important;
   color: #a7aab4;
   background-color: whitesmoke;
+
+  .copyright_icons {
+    gap: 1rem;
+    
+
+    .media_icons {
+      height: 1.5rem;
+      width: 1.5rem;
+
+      
+      background-size: contain;
+      background-repeat: no-repeat;
+      svg{
+        fill: red !important;
+      }
+    }
+    
+   
+  }
 }
 
 .pageheader_container {
@@ -26,7 +45,20 @@
     font-size: 4rem;
   }
 
-  
+  .copyright_container {
+    flex-direction: column !important;
+    height: unset;
+    padding: .75rem 0;
+
+    .copyright_icons {
+      order: 0;
+      margin-bottom: 0.5rem;      
+    }
+
+    .copyright_text {
+      order: 1;
+    }
+  }
 }
 
 @media (max-width: 600px) {
