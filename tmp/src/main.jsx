@@ -15,6 +15,7 @@ import Insurance from './Pages/Insurance/Insurance.jsx'
 import Resources from './Pages/Resources/Resources.jsx'
 
 import './common.css'
+import { Analytics } from "@vercel/analytics/react"
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(

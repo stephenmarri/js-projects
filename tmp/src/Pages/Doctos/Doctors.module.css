@@ -43,6 +43,7 @@
 @media (max-width: 1000px) {
   .one_doctor {
     grid-template-columns: 1fr 1fr;
+    width: 100%;
 
     img{
         height: 50vw;
