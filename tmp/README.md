@@ -39,7 +39,7 @@
 ## Left To Do Before Sending Message
 - [x] Request Appointment Page
   - [x] Disalbe 'Submit' Button
-- [ ] Mobile Scroll Navbar
+- [x] Mobile Scroll Navbar
 - [ ] Homepage
   - [ ] make carousel of image
   - [ ] see if image width full page looks goods
