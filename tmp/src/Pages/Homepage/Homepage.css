@@ -1,6 +1,7 @@
 #home_container {
   #home__lineOne {
     position: relative;
+    padding-top: 2rem;
     #image_here {
       width: 100%;
       min-height: 25rem;

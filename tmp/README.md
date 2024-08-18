@@ -1,25 +1,52 @@
 ### User Stories
 
 - [ ] __Components__
-  - [ ] Footer
+  - [x] Footer
   - [x] Copyright
-  - [ ] Header
-  - [ ] Navbar
+  - [x] Header
+  - [x] Navbar
     - [ ] Handle Mobile Header
   
 <br>  
 
 - [ ] __Pages__
-  - [ ] Home
+  - [x] Home
   - [x] Providers Page
     - [ ] Take details from config
-  - [ ] Services
-  - [ ] Nurses
-  - [ ] Billing & Insurance
-  - [ ] Contact Us
+  - [x] Services
+  - [x] Nurses
+  - [x] Billing & Insurance
+  - [x] Contact Us
+  - [ ] Request Appointment
 
 <br>
 
-- [ ] Create Logo
-- [ ] Choose Typography
-- [ ] Choose Icons
+- [x] Create Logo
+- [x] Choose Typography
+- [x] Choose Icons
+
+
+
+## Production Deployment Take Care
+
+##### Copyright 
+- [ ] Logo
+- [ ] Images - Doctors Page
+- [ ] Images - Services page
+- [ ] Images - Insurance Page
+
+
+## Left To Do Before Sending Message
+- [x] Request Appointment Page
+  - [x] Disalbe 'Submit' Button
+- [ ] Mobile Scroll Navbar
+- [ ] Homepage
+  - [ ] make carousel of image
+  - [ ] see if image width full page looks goods
+  - [ ] See if you can add some more content on homepage
+  - [ ] make one full width banner
+- [ ] Check resolution
+  - [ ] iphone
+  - [ ] tab
+  - [ ] big computer
+  - [ ] 

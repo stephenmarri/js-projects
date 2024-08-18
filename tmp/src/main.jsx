@@ -16,6 +16,7 @@ import Resources from './Pages/Resources/Resources.jsx'
 
 import './common.css'
 import { Analytics } from "@vercel/analytics/react"
+import Requests from './Pages/Request/Request.jsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -30,6 +31,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path="/contact" element={<Contact />} />
           <Route path="/insurance" element={<Insurance />} />
           <Route path="/resources" element={<Resources />} />
+          <Route path="/requests" element={<Requests /> } />
         </Route>
       </Routes>
     </Router>

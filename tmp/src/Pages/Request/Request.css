@@ -1,0 +1,56 @@
+#request_container {
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+  justify-content: start;
+  
+  * {
+    font-family: 'Poppins';
+    font-size: 1.25rem;
+  }
+  
+  #line_one{
+    width: 100%;
+    justify-content: space-between;
+    
+    input{
+      width: 30%;  
+      height: 2.5rem;
+      padding-left: 0.75rem;
+      border: 1px solid darkgray;
+      border-radius: 3px;
+      border: 1px solid var(--bg-seconday);
+    }
+  }
+  
+  #message{    
+    border-radius: 3px;
+    border: 1px solid var(--bg-seconday);
+    padding: .75rem;
+    width: 100%;
+    justify-content: space-between;
+    
+  }
+  
+  button{
+    border-radius: 3px;
+    height: 2.5rem;
+    background-color: inherit;
+    border: 1px solid var(--bg-seconday);
+    width: 100%;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Nunito Sans';
+    color: var(--bg-seconday);
+
+     &:hover{
+      cursor: pointer;
+      color: whitesmoke;
+      background-color: var(--bg-seconday);
+    }
+  }
+
+}
+
+
