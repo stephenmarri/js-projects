@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import SendWishes from "./components/SendWishes";
 import Error from "./components/Error";
 import View from "./components/View";
+import Home from "./components/Home";
 
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
     <div id="app_container">
     <Router>
       <Routes>
-
+          <Route path="/" element={<Home />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/enter" element={<Enter setIsUserAuthenicated={setisUserAuthenicated} setcreatedByUserID={setcreatedByUserID} />} />
           <Route path="/send" element={<SendWishes isUserAuthenticated={isUserAuthenicated} createdByUserID={createdByUserID} />} />
