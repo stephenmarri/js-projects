@@ -6,12 +6,12 @@ const ShowSingleQuestion = ({questionKey, questionText, type, handleInputChange,
         <label htmlFor="">{questionText}</label>
         {
             type == "text" ? 
-            <input readOnly type="text" name={questionKey} id="" onChange={handleInputChange} required placeholder='...' value={answer || ''}/> 
+            <input readOnly type="text" name={questionKey} id="" onChange={handleInputChange} required placeholder='' value={answer || ''}/> 
             : null
         }
         {
             type == "textarea" ? 
-            <textarea readOnly name={questionKey} id="" onChange={handleInputChange}  required rows={4} placeholder='...' value={answer || ''}></textarea>
+            <textarea readOnly name={questionKey} id="" onChange={handleInputChange}  required rows={4} placeholder='' value={answer || ''}></textarea>
             : null
         }
         

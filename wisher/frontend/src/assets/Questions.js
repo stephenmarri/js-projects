@@ -21,17 +21,17 @@ const questionsObj = {
     },
     "questionFive": {
         "question": "What is the one quality you like most in 'Sujana'?",
-        "type": "text",
+        "type": "textarea",
         "answer": ""
     },
     "questionSix": {
         "question": "When and where did you first meet 'Sujana'?",
-        "type": "text",
+        "type": "textarea",
         "answer": ""
     },
     "questionSeven": {
         "question": "What are your wishes for Sujana?",
-        "type": "text",
+        "type": "textarea",
         "answer": ""
     }
 }

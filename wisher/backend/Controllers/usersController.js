@@ -27,7 +27,7 @@ const getByUsername = asyncHandler(async (req, res) => {
     return res.status(200).json(user)
 })
 
-//  ! Authenticate
+//  todo Authenticate
 const authenticate = asyncHandler(async (req, res) => {
     const {username, password} = req.body
     console.log("reached auth")
@@ -37,7 +37,7 @@ const authenticate = asyncHandler(async (req, res) => {
         return res.status(400).json({message: "All Fields are Required"})
     }
     
-    const user = await User.findOne({username: username}).lean().exec()    
+    const user = await User.findOne({username: String(username).toLowerCase()}).lean().exec()    
     if(!user){
         return res.status(404).json({message: "User Not Found"})
     }

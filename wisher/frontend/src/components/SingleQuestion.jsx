@@ -6,12 +6,12 @@ const SingleQuestion = ({questionKey, questionText, type, handleInputChange}) =>
         <label htmlFor="">{questionText}</label>
         {
             type == "text" ? 
-            <input type="text" name={questionKey} id="" onChange={handleInputChange} required placeholder='...' /> 
+            <input type="text" name={questionKey} id="" onChange={handleInputChange} required placeholder='' /> 
             : null
         }
         {
             type == "textarea" ? 
-            <textarea name={questionKey} id="" onChange={handleInputChange}  required rows={4} placeholder='...' ></textarea>
+            <textarea name={questionKey} id="" onChange={handleInputChange}  required rows={4} placeholder='' ></textarea>
             : null
         }
         
