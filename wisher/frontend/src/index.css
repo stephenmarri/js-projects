@@ -1,0 +1,200 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  font-size: 16px;
+}
+
+body {
+  width: 100%;
+  font-family: "Nunito";
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* app.jsx */
+#app_container {
+  overflow-y: auto;
+  padding: 2rem 0;
+  max-width: 30rem;
+  width: 30%;
+  height: 100%;
+  background-color: lightblue;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* signup_container */
+#signup_container {
+  width: 100%;
+}
+
+/* enter_container */
+#enter_container {
+  width: 100%;
+
+  a {
+    border: 2px solid darkcyan;
+    height: 3rem;
+    line-height: 3rem;
+    color:darkcyan;
+    text-align: center;
+    vertical-align: middle;
+    background-color: whitesmoke;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 1.15rem;
+    text-decoration: none;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.signupAndEnter {
+  gap: 1rem;
+  width: 100%;
+
+  & > * {
+    width: 60%;
+  }
+
+  input {
+    height: 3rem;
+    font-size: 1.25rem;
+
+    font-family: inherit;
+
+    &:not(:nth-child(3)) {
+      padding-left: 1rem;
+    }
+
+    &[type="submit"] {
+      background-color: whitesmoke;
+      font-weight: 800;
+      text-transform: uppercase;
+      font-size: 1.15rem;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  #message {
+    max-height: 30vh;
+    text-align: center;
+    overflow-y: auto;
+    margin-top: 1rem;
+    border-top: 1px solid #000;
+    padding-top: 1rem;
+    border-color: darkgray;
+  }
+}
+
+
+/* wishes_container */
+
+#wishes_container{
+  width: 90%;
+  /* background-color: wheat; */
+
+  #btnSendWishes{
+    margin-top: 1rem;
+    width: 100%;
+    height: 3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #2c5e50;
+    border: 3px solid #2c5e50;
+
+    &:hover{
+      cursor: pointer;
+    }
+  }
+}
+
+#singleQuestion{
+  width: 100%;
+  align-items: flex-start;
+  font-family: "Poppins";
+  gap: .25rem;
+  
+  
+  label{
+    padding-left: 0rem;
+    color: #7c7676;
+  }
+  
+  input{
+    width: 100%;
+    min-height: 2rem;
+    padding-left: .5rem;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    /* border-radius: 3px; */
+  }
+  textarea{
+    border-radius: 3px;
+    min-width: 100%;
+    max-width: 100%;
+    padding-top: .5rem;
+    padding-left: .5rem;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+/* view_container */
+
+#view_container{
+  width: 90%;
+
+  #btnSendWishes{
+    margin-top: 1rem;
+    width: 100%;
+    height: 3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #2c5e50;
+    border: 3px solid #2c5e50;
+
+    &:hover{
+      cursor: pointer;
+    }
+  }
+
+  #responded_users{
+    width: 90%;
+    
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    justify-content: flex-start;
+    
+    p{
+      background-color: whitesmoke;
+      font-weight: 600;
+      border: 1px solid darkgray;
+      padding: .25rem .75rem
+    };
+  }
+}
+

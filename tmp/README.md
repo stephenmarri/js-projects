@@ -45,8 +45,8 @@
   - [ ] see if image width full page looks goods
   - [ ] See if you can add some more content on homepage
   - [ ] make one full width banner
-- [ ] Check resolution
-  - [ ] iphone
-  - [ ] tab
-  - [ ] big computer
-  - [ ] 
+- [x] Check resolution
+  - [x] iphone
+  - [x] tab
+  - [x] big computer
+  
