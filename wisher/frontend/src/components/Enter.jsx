@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Enter = ({ setIsUserAuthenicated, setcreatedByUserID }) => {
 
     const [isValidUser, setisValidUser] = useState(false);
-
+    console.log(import.meta.env.VITE_API_URL)
 
     const [username, setUsername] = useState("");
     const [userpin, setUserpin] = useState("");
@@ -14,7 +14,7 @@ const Enter = ({ setIsUserAuthenicated, setcreatedByUserID }) => {
     const onChangeUserPin = (e) => setUserpin(e.target.value)
 
     const authenticate = async () => {
-        const url = "http://localhost:8000/users/authenticate"
+        const url =  import.meta.env.VITE_API_URL + "users/authenticate"
         const body = JSON.stringify(
             {
                 "username": username,

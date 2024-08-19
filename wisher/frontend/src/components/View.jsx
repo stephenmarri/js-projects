@@ -13,7 +13,7 @@ const View = ({ isUserAuthenticated = false, userId }) => {
 
 
     const getAllWishes = async () => {
-        const url = "http://localhost:8000/wishes/" + userId
+        const url = `${import.meta.env.VITE_API_URL}wishes/${userId}`;
         const response = await fetch(url, {
             headers: {
                 "Content-Type": "application/json",

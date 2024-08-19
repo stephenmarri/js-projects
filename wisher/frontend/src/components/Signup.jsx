@@ -10,7 +10,7 @@ const Signup = () => {
     const onChangeUserPin = (e) => setUserpin(e.target.value)
 
     const addUser = async () => {
-        const url = "http://localhost:8000/users"
+        const url = import.meta.env.VITE_API_URL + "users"
         const body = JSON.stringify(
             {
                 "username": username,

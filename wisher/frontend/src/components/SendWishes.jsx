@@ -48,7 +48,7 @@ const SendWishes = ({ isUserAuthenticated = false, createdByUserID, createdForUs
             }
         )        
 
-        const url = "http://localhost:8000/wishes"                
+        const url = import.meta.env.VITE_API_URL + "wishes"                
         const response = await fetch(url, {
             method: "POST",
             headers: {
