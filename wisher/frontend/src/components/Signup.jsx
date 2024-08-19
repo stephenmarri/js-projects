@@ -34,8 +34,8 @@ const Signup = () => {
     }
 
     return (
-        <div className='fc' id='signupAndEnter'>
-            <div className='fc signup' id='signup'>
+        <div className='fc' id='signup_container'>
+            <div className='fc signupAndEnter' id='signup'>
                 <input onChange={onChangeUserName} type="text" name="" id="username" value={username} placeholder='USERNAME' />
                 <input onChange={onChangeUserPin} type="number" name="" id="userpin" value={userpin} placeholder='PIN' />
                 <input onClick={addUser} type="submit" readOnly value="Add User" />
