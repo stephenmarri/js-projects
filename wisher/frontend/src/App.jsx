@@ -6,6 +6,7 @@ import SendWishes from "./components/SendWishes";
 import Error from "./components/Error";
 import View from "./components/View";
 import Home from "./components/Home";
+import { Analytics } from "@vercel/analytics/react"
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
   return (
     <>
     <div id="app_container">
+      <Analytics />
     <Router>
       <Routes>
           <Route path="/" element={<Home />} />

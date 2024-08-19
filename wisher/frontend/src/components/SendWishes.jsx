@@ -83,7 +83,7 @@ const SendWishes = ({ isUserAuthenticated = false, createdByUserID, createdForUs
             {
                  respMessage ? 
                  <div>{respMessage}</div> :
-                        isUserAuthenticated || true?
+                        isUserAuthenticated ?
                         sendWishesHTML() :                       
                         <div>Invalid View</div>
             }
