@@ -13,6 +13,7 @@
   justify-content: space-between !important;
   color: #a7aab4;
   background-color: whitesmoke;
+  
 
   .copyright_icons {
     gap: 1rem;
@@ -21,7 +22,7 @@
     .media_icons {
       height: 1.5rem;
       width: 1.5rem;
-
+      
       
       background-size: contain;
       background-repeat: no-repeat;

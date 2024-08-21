@@ -13,6 +13,10 @@
       background-position: 10% 30%;
       background-color: rgba(255, 255, 255, 0.1);
       background-blend-mode: lighten;
+      
+      background-image: url("/cc/home1.jpg");
+      background-position: 10% 50%;
+      background-image: url("/cc/home-cartoon1.svg");
 
       border-radius: 5px;
       filter: blur(1px);

@@ -28,12 +28,12 @@ const Navbar = () => {
 
                     </div>
 
-                    <h2>Terrebone<br />Pediatrics</h2>
+                    <h2>Terrebonne<br />&nbsp;Pediatrics</h2>
                     <div onClick={clickMobileMenu} id='mobile_menu' style={{ backgroundImage: `url('/icons/bars.svg')` }}>
                     </div>
                 </div>
                 <div id='navbar_appointment' className={style.navbar_appointment}>
-                    <a className={style.call_us} href="tel:123 456 7890">Call Us</a>
+                    <a className={style.call_us} href="tel:9858762321">Call Us</a>
                     <Link to="/requests">Request Appointment</Link>
                 </div>
 

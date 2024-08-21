@@ -10,9 +10,14 @@ const Copyright = () => {
             <div className=
             {`${style.copyright_icons} fr`}
             >
-                <a href='mailto:example@domain.com' style={{backgroundImage: `url('/icons/s3/mail.svg')`}} className={`${style.icon_fb} ${style.media_icons} media_icons` } target="_blank" ></a>                  
+                {/* <a href='mailto:example@domain.com' style={{backgroundImage: `url('/icons/s3/mail.svg')`}} className={`${style.icon_fb} ${style.media_icons} media_icons` } target="_blank" ></a>                  
                 <a href='tel:+11012023003' style={{backgroundImage: `url('/icons/s3/phone.svg')`}} className={`${style.icon_tel} ${style.media_icons} media_icons` } target="_blank" ></a>
                 <a href='https://maps.app.goo.gl/75NY9NNvidx1S2bJ9' style={{backgroundImage: `url('/icons/s3/maps.svg')`}} className={`${style.icon_fb} ${style.media_icons} media_icons` } target="_blank" ></a>
+                <a href='https://www.facebook.com/childrenwecare2017' style={{backgroundImage: `url('/icons/s3/fb.svg')`}} className={`${style.icon_tel} ${style.media_icons} media_icons` } target="_blank" ></a> */}
+                
+                <a href='https://maps.app.goo.gl/75NY9NNvidx1S2bJ9' style={{backgroundImage: `url('/icons/cc/map.svg')`}} className={`${style.icon_fb} ${style.media_icons} media_icons` } target="_blank" ></a>
+                <a href='mailto:example@domain.com' style={{backgroundImage: `url('/icons/cc/mail.svg')`}} className={`${style.icon_fb} ${style.media_icons} media_icons` } target="_blank" ></a>                  
+                <a href='tel:+11012023003' style={{backgroundImage: `url('/icons/cc/phone.svg')`}} className={`${style.icon_tel} ${style.media_icons} media_icons` } target="_blank" ></a>
                 <a href='https://www.facebook.com/childrenwecare2017' style={{backgroundImage: `url('/icons/s3/fb.svg')`}} className={`${style.icon_tel} ${style.media_icons} media_icons` } target="_blank" ></a>
                 
             </div>

@@ -10,18 +10,15 @@ const Insurance = () => {
                 <p>
                     We accept most major insurance companies including:
                     <ul >
-                        <li>Aetna</li>
-                        <li>Blue Cross Blue Shield</li>
-                        <li>Cigna</li>
-                        <li>Humana</li>
-                        <li>Tricare</li>
-                        <li>United Healthcare</li>
+                        <li>lorem</li>
+                        <li>Lorem ipsum dolor sit amet.</li>
+                        <li>Ipsum</li>
+                        <li>Dolor</li>
+                        <li>Lorem Sit</li>
+                        <li>Lorem, ipsum dolor.</li>
                         <li>UMR</li>
                     </ul><br />
-                    If your insurance isn’t listed please call our Billing Dept at 985-872-2897 to confirm if it’s a policy we can file.
-                    <br />All insurance eligibility will be verified prior to appointment time.  Co-pays and deductibles will be collected at the time of service.  
-                    <br />For your convenience we accept all forms of payment.
-                    <br />All Bayou Health Plans as well as some private plans require a PCP.  The child must be linked to a Bayou Pediatrics physician to be able to be seen.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, optio. Perspiciatis veritatis recusandae eius delectus magni fugiat fuga. Tempora culpa sed neque eaque quam nisi error aperiam, quidem illum ea voluptatibus odit dolorum rerum aliquid dolorem repellat? Facilis cupiditate eius, quis sequi recusandae, laboriosam architecto fugit at amet sint eum fuga, ab iure molestiae commodi enim nostrum laborum asperiores. Odio impedit id magni laborum aliquam eveniet, provident tempore blanditiis illo, labore ipsa aperiam harum asperiores.
                 </p>
                 <div id='insurance_image'>
                     
@@ -33,19 +30,13 @@ const Insurance = () => {
                 <h2>Other Insurance</h2>
                 <div>
                     <p>
-                        <h3>Medicaid</h3>
+                        <h3>Lorem Ipsum</h3>
                         <ul>
-                            <li>Amerihealth</li>
-                            <li>Louisiana Healthcare</li>
-                            <li>United Healthcare</li>
+                            <li>Lorem, ipsum.</li>
+                            <li>Lorem, ipsum dolor.</li>
+                            <li>Lorem, ipsum.</li>
                         </ul>
-                        If your insurance isn’t listed please call our Billing Dept at 985-872-2897 to confirm if it’s a policy we can file.
-                        <br /><br />
-                        <span>
-                            All insurance eligibility will be verified prior to appointment time.  Co-pays and deductibles will be collected at the time of service.  <br />
-                            For your convenience we accept all forms of payment.<br />
-                            All Bayou Health Plans as well as some private plans require a PCP.  The child must be linked to a Bayou Pediatrics physician to be able to be seen.
-                        </span>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis veritatis reprehenderit error eligendi corporis quasi beatae consectetur vel tempora culpa voluptas eaque sint, corrupti porro, illum ratione totam libero aut maxime omnis. Omnis molestiae laborum fugiat, aliquid non repudiandae delectus ab itaque, eligendi quidem quia eaque recusandae optio et debitis.
                     </p>
                 </div>
             </div>

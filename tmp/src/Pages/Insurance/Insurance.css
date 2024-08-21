@@ -24,6 +24,10 @@
       min-height: 25rem;
       border-radius: 5px;
       background-image: url("/images/insurance.jpg");
+      background-image: url("/cc/billing.jpg");
+      background-image: url("/cc/billing2.jpg");
+      background-image: url("/cc/billing3.jpg");
+      background-image: url("/cc/insurance-cartoon.jpg");
       background-size: cover;
     }
   }
