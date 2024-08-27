@@ -7,23 +7,23 @@ import MobileNav from "./Components/MobileNav";
 
 function App() {
 
-  return (
-    <>
-      <div id="main_container">
-        <Analytics />
-        <Navbar />
-        <MobileNav />
-        <Outlet />
-        <Copyright />
-      </div>
-    </>
-  )
   // return (
-  //   <>      
+  //   <>
+  //     <div id="main_container">
   //       <Analytics />
-  //       <ComingSoon />
+  //       <Navbar />
+  //       <MobileNav />
+  //       <Outlet />
+  //       <Copyright />
+  //     </div>
   //   </>
   // )
+  return (
+    <>      
+        <Analytics />
+        <ComingSoon />
+    </>
+  )
 }
 
 export default App

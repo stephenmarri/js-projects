@@ -1,0 +1,49 @@
+:root {
+    --bg-primary: aliceblue;
+    --block-size: 7px;
+  }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.fc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .fr {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+  @font-face {
+    font-family: Nunito;
+    src: url(/fonts/Nunito.ttf);
+  }
+  @font-face {
+    font-family: Poppins;
+    src: url(/fonts/Poppins.ttf);
+  }
+  @font-face {
+    font-family: OpenSans;
+    src: url(/fonts/OpenSans.ttf);
+  }
+
+  @font-face {
+    font-family: "Noto";
+    src: url(/fonts/Noto.ttf);
+  }
+
+
+  .selected{
+    color:honeydew !important;
+    background-color: darkblue;
+  }
