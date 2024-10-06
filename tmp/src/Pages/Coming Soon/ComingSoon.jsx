@@ -1,6 +1,6 @@
 import React from 'react'
 import './ComingSoon.css'
-// Uncomment the above css import as it will distort the remaining entrie css
+// Comment the above css import as it will distort the remaining entire css
 
 const ComingSoon = () => {
     return (

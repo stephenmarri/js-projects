@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-primary: #F0F8FF;
+    --bg-color: #004777;
+    --bg-color-sec: #3e8dc1;
+    --bg-color-light: #8797AF;
+
+}
+
+@font-face {
+    font-family: 'Nunito';
+    src: url('/Nunito.ttf');
+}
+@font-face {
+    font-family: 'JetBrains';
+    src: url('/JetBrains.ttf');
+}
+@font-face {
+    font-family: 'SpaceMono';
+    src: url('/SpaceMono.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('/Roboto.ttf');
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('/Poppins.ttf');
+}
+@font-face {
+    font-family: 'Opensans';
+    src: url('/Opensans.ttf');
+}
+
+.fc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fr{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+html{
+    height: 100vh;
+    width: 100%;
+    font-size: 16px;
+    color: var(--bg-color);
+}
+
+body{
+    font-family: 'Poppins'; 
+    font-style: normal;
+    height: 100%;
+    width: 100%;
+    background-color: var(--bg-primary);
+    }
+
+#main_container{
+    width: 92%;
+    margin: auto;
+    max-width: 600px;
+
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+
+    h6{
+        color: var(--bg-color-light);
+        font-size: 1.5rem;
+        padding: 0.5rem 0;
+        
+    }
+}
+
+.dual_container{
+    width: 100%;
+    justify-content: space-between;
+
+    .single_card{
+        padding: 0.25rem 0.75rem;
+        span:nth-child(1){
+            font-size: 0.75rem;
+            color: var(--bg-color-light);
+            align-self: self-start;
+        }
+        span:nth-child(2){
+            font-weight: 600;
+            font-size: 1.4rem;
+        }
+
+        width: 48%;
+        border: 1px solid var(--bg-color-sec);        
+        border-radius: 0.25rem;
+    }
+
+}
+
+.time_text{
+    font-family: 'JetBrains';
+}
+
+.lttxt{
+    color: var(--bg-color-light);
+}
+
+#currency_container{
+    input{
+        width: 90%;
+        border-radius: 0.25rem;
+        /* margin: .1rem 0 .1rem .1rem; */
+        text-align: center;
+    }
+}
