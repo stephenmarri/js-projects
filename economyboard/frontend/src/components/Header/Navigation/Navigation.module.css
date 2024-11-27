@@ -1,0 +1,23 @@
+.navigation{
+    width: 100%;
+    justify-content: space-around;
+    background-color: white;
+    gap: 1px;
+    flex-wrap: wrap;
+    padding-bottom: .25rem;
+
+}
+
+.nav_item{
+    flex:1;
+    color: #000;
+    height: 100%;
+    background-color: lightgray;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.selected{
+    color: #fff;
+    background-color:#006D6F ;
+}

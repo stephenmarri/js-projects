@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*  - - - - - - - - - - */
+/*      C O M M O N     */
+/*  - - - - - - - - - - */
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/fonts/Poppins-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('/fonts/Roboto-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Raleway';
+  src: url('/fonts/Raleway-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fr{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.fc{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bb{
+  border: 1px solid red
+}
+
+/*  - - - - - - - - - - */
+/*      C O M M O N     */
+/*  - - - - - - - - - - */
+
+html{
+  width: 100%;
+  height: 100%;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  max-width: 900px;
+  margin: auto;
+  
+  background-color: #F7F7F7;
+
+  #section-header{
+    height:7%;
+  }
+  #section-navigation{
+    height:5%;
+  }
+}
+
+
+#root{
+  width: 100%;
+  height: 100%;
+  
+}
